@@ -11,6 +11,8 @@ SetBatchLines -1
 ListLines Off
 SetWorkingDir %A_ScriptDir%\Resources\
 
+Gui, Font, S16
+
 ;base
 Gui, Add, Picture, x3 y3 w474 h474 Altsubmit, %A_WorkingDir%\board.jpg
 Gui, Add, Picture, x480 y3 w237 h-1 Altsubmit, %A_WorkingDir%\box.jpg
@@ -61,6 +63,40 @@ Gui, Add, Picture, x510 y312 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\hb.png
 Gui, Add, Picture, x560 y312 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\qb.png
 ;King Black
 Gui, Add, Picture, x610 y312 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\kb.png
+
+;Grid Indicators
+Gui, Add, Text, x60 y12 cf9deb3 +BackgroundTrans, A
+Gui, Add, Text, x110 y12 cf9deb3 +BackgroundTrans, B
+Gui, Add, Text, x158 y12 cf9deb3 +BackgroundTrans, C
+Gui, Add, Text, x208 y12 cf9deb3 +BackgroundTrans, D
+Gui, Add, Text, x258 y12 cf9deb3 +BackgroundTrans, E
+Gui, Add, Text, x308 y12 cf9deb3 +BackgroundTrans, F
+Gui, Add, Text, x355 y12 cf9deb3 +BackgroundTrans, G
+Gui, Add, Text, x406 y12 cf9deb3 +BackgroundTrans, H
+Gui, Add, Text, x60 y444 cf9deb3 +BackgroundTrans, A
+Gui, Add, Text, x110 y444 cf9deb3 +BackgroundTrans, B
+Gui, Add, Text, x158 y444 cf9deb3 +BackgroundTrans, C
+Gui, Add, Text, x208 y444 cf9deb3 +BackgroundTrans, D
+Gui, Add, Text, x258 y444 cf9deb3 +BackgroundTrans, E
+Gui, Add, Text, x308 y444 cf9deb3 +BackgroundTrans, F
+Gui, Add, Text, x355 y444 cf9deb3 +BackgroundTrans, G
+Gui, Add, Text, x406 y444 cf9deb3 +BackgroundTrans, H
+Gui, Add, Text, x15 y58 cf9deb3 +BackgroundTrans, 8
+Gui, Add, Text, x15 y108 cf9deb3 +BackgroundTrans, 7
+Gui, Add, Text, x15 y157 cf9deb3 +BackgroundTrans, 6
+Gui, Add, Text, x15 y206 cf9deb3 +BackgroundTrans, 5
+Gui, Add, Text, x15 y255 cf9deb3 +BackgroundTrans, 4
+Gui, Add, Text, x15 y304 cf9deb3 +BackgroundTrans, 3
+Gui, Add, Text, x15 y353 cf9deb3 +BackgroundTrans, 2
+Gui, Add, Text, x15 y402 cf9deb3 +BackgroundTrans, 1
+Gui, Add, Text, x451 y58 cf9deb3 +BackgroundTrans, 8
+Gui, Add, Text, x451 y108 cf9deb3 +BackgroundTrans, 7
+Gui, Add, Text, x451 y157 cf9deb3 +BackgroundTrans, 6
+Gui, Add, Text, x451 y206 cf9deb3 +BackgroundTrans, 5
+Gui, Add, Text, x451 y255 cf9deb3 +BackgroundTrans, 4
+Gui, Add, Text, x451 y304 cf9deb3 +BackgroundTrans, 3
+Gui, Add, Text, x451 y353 cf9deb3 +BackgroundTrans, 2
+Gui, Add, Text, x451 y402 cf9deb3 +BackgroundTrans, 1
 
 Gui, Color, cee0de
 Gui, Show, h480 w720, Chess
