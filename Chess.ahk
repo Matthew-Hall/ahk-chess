@@ -98,6 +98,44 @@ Gui, Add, Text, x451 y304 cf9deb3 +BackgroundTrans, 3
 Gui, Add, Text, x451 y353 cf9deb3 +BackgroundTrans, 2
 Gui, Add, Text, x451 y402 cf9deb3 +BackgroundTrans, 1
 
+;checkers pieces
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x510 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb.png
+Gui, Add, Picture, x560 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr2.png
+Gui, Add, Picture, x560 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr2.png
+Gui, Add, Picture, x560 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr2.png
+Gui, Add, Picture, x560 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr2.png
+Gui, Add, Picture, x560 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr2.png
+Gui, Add, Picture, x560 y118 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkr2.png
+Gui, Add, Picture, x560 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb2.png
+Gui, Add, Picture, x560 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb2.png
+Gui, Add, Picture, x560 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb2.png
+Gui, Add, Picture, x560 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb2.png
+Gui, Add, Picture, x560 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb2.png
+Gui, Add, Picture, x560 y355 w40 h-1 Altsubmit gPickup, %A_WorkingDir%\checkb2.png
+
 Gui, Color, cee0de
 Gui, Show, h480 w720, Chess
 Return
